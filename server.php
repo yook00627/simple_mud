@@ -300,7 +300,7 @@ Loop::run(
 							}
 							array_shift($args);
 							$user = $this->usernames[$socket->getRemoteAddress()];
-							$this->tell($user . " tells: " . implode(" ", $args) . PHP_EOL, $socket, $username);
+							$this->tell($user . " tells {$username}: " . implode(" ", $args) . PHP_EOL, $socket, $username);
 							break;
 
 						case "name":
