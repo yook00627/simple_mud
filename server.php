@@ -162,7 +162,7 @@ Loop::run(
 							$position = $this->playerPos[$socket->getRemoteAddress()];
 							if ($this->levels[$position[2]][$position[1]][$position[0]] === "D") {
 								$socket->write("Going down" . PHP_EOL);
-								$this->playerPos[$socket->getRemoteAddress()][2] += 1;
+								$this->playerPos[$socket->getRemoteAddress()][2] -= 1;
 							} else {
 								$socket->write("There is no stairs going down" . PHP_EOL);
 							}
