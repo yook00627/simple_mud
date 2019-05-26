@@ -1,0 +1,13 @@
+{
+    "name": "yook00627/chat",
+    "description": "simple chat channel",
+    "authors": [
+        {
+            "name": "Kevin Yook",
+            "email": "yook00627@gmail.com"
+        }
+    ],
+    "require": {
+        "amphp/socket": "^0.10.11"
+    }
+}
