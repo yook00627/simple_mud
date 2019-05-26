@@ -22,3 +22,10 @@ $ nc localhost 1337
 ```
 
 You can open multiple terminals to test for other users joining the channel
+
+# API used
+
+
+Amp: for making connection simple
+
+https://amphp.org/
